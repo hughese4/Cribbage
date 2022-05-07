@@ -9,9 +9,12 @@ class botHand():
 
         botHandDict = {"card1": '', "card2": '', "card3": '', "card4": '', "card5": '', "card6": ''}
 
-        print("Your hand is: \n")
+        
         num = 0
         for key in botHandDict:
             num += 1
             card = rankSuit.randCard()
             key = (card[0] + " of " + card[1])
+
+    
+    #need to make a method that selects the bot's crib cards.

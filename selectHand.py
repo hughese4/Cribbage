@@ -18,4 +18,6 @@ class selectHand():
 
         cribCard1 = input("Select the first card to put into the crib (by typing the number in front it).\n> ")
         cribCard2 = input("Select the second card to put into the crib.\n> ")
+
+        #needs to call a method in bothand to select crib cards and send them to crib class
         
