@@ -12,8 +12,7 @@ class selectHand():
         for i in handDict:
             num += 1
             card = rankSuit.randCard()
-            handDict[card[0]] = card[1]
-            print(str(num) + ") " + card[0] + " of " + handDict[card[0]])
+            handDict[i] = (card[0] + " of " card[1])
 
         print(handDict)
         print()
