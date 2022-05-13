@@ -9,11 +9,12 @@ class selectHand():
 
         print("Your hand is: \n")
         num = 0
-        for key in handDict:
+        for i in handDict.keys():
             num += 1
             card = rankSuit.randCard()
-            key = (card[0] + " of " + card[1])
-            print(str(num) + ") " + key)
+            handDict[i] = (card[0] + " of " + card[1])
+            
+        print(handDict)
         print()
 
         cribCard1 = input("Select the first card to put into the crib (by typing the number in front it).\n> ")
