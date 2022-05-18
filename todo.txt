@@ -1,0 +1,2 @@
+- make sure player can't select the same card twice in dealPlayerHand
+- have bot select and store cards to put in crib
